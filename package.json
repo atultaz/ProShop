@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "description": "MERN shopping Kart",
   "main": "server.js",
+<<<<<<< HEAD
   "type": "module",
+=======
+  "type":"module",
+>>>>>>> ec1640ed18a1fb294e1f317e3349f3adfee216ee
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
+<<<<<<< HEAD
     "dev": "concurrently \"npm run server\" \"npm run client\" ",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d"
+=======
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+>>>>>>> ec1640ed18a1fb294e1f317e3349f3adfee216ee
   },
   "repository": {
     "type": "git",
@@ -23,12 +31,17 @@
   },
   "homepage": "https://github.com/atultaz/ProShop#readme",
   "dependencies": {
+<<<<<<< HEAD
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
     "mongoose": "^5.13.7"
+=======
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+>>>>>>> ec1640ed18a1fb294e1f317e3349f3adfee216ee
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
